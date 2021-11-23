@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "elementalitems",
+  "version": "${version}",
+
+  "name": "Elemental Items",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Daddy"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/SoggyRihno/Elementals-Mod-1.17"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/elementalitems/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "elementalItems.Main"
+    ]
+  },
+  "mixins": [
+    "elementalitems.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
